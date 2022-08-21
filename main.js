@@ -17,7 +17,7 @@ const findExponent = (num, exp) => {
         return num * findExponent(num, exp - 1);
     }
 };
-console.log(findExponent(5, 3));
+console.log('Exponent 5^3:',findExponent(5, 3));
 
 // $ Write a recursive JavaScript program to compute the sum of an array of
 // $ integers.
